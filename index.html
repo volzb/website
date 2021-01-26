@@ -1,87 +1,56 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
-        <link rel="icon" type="image/png" href="http://newleaf.green/favicon.png"  >
-        <style>
-            body{
-                margin: 0;
-                
-            }
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/leaf.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
 
-            .top{
-                background-color: #9bb98e;
-            }
+.logo{
+    fill:whitesmoke;
+    width: 20vw;
+    padding: 2vw;
+}
 
-            .mid{
-                background-color:#9bb98e;
-                height: 100vh;
-            }
+p, h1{
+    color: white;
+}
+</style>
+<body>
 
-            .bot{
-                height: 30vh;
-                background-color: gray;
-            }
-
-            .logo{
-               display: flex;
-               fill:#435446;
-               width: 50vw;
-               padding: 2vw;
-               align-self: center;
-               justify-self: center;
-            }
-
-            .sub_heading{
-                display: block;
-                padding: 1em;
-            }
-            
-            .text{
-                display: block;
-                padding: 1em;
-            }
-
-        </style>
-    
-    </head>
-    <body>
-       <div class="top">
-            <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 519.16 168.13">
-                <path class="cls-1" d="M227.38,45.85h-8.11a1.6,1.6,0,0,0-1.5,1.74v50a.59.59,0,0,1-1.16.12l-15.18-50.6a1.49,1.49,0,0,0-1.5-1.28h-7.19a1.6,1.6,0,0,0-1.5,1.74v88.47a1.52,1.52,0,0,0,1.5,1.5h8a1.52,1.52,0,0,0,1.5-1.5V85.88a.64.64,0,0,1,1.28-.12l15.06,50.64a1.59,1.59,0,0,0,1.5,1.16h7.3a1.56,1.56,0,0,0,1.63-1.5V47.59A1.62,1.62,0,0,0,227.38,45.85Z"/>
-                <path class="cls-1" d="M237.59,137.56h29.09a1.32,1.32,0,0,0,1.27-1.39v-9a1.39,1.39,0,0,0-1.27-1.39h-16.8a1.35,1.35,0,0,1-1.51-1.27V93a1.36,1.36,0,0,1,1.51-1.28h8.8a1.5,1.5,0,0,0,1.51-1.38v-9a1.6,1.6,0,0,0-1.51-1.39h-8.8a1.37,1.37,0,0,1-1.51-1.39V59.15a1.46,1.46,0,0,1,1.51-1.5h16.8A1.32,1.32,0,0,0,268,56.26v-8.9a1.43,1.43,0,0,0-1.27-1.51H237.59a1.44,1.44,0,0,0-1.39,1.51v88.81A1.34,1.34,0,0,0,237.59,137.56Z"/>
-                <path class="cls-1" d="M341.64,45.85H331.09a1.6,1.6,0,0,0-1.5,1.39l-6.14,59.1c0,.8-1.28.8-1.39,0l-8.92-59.1a1.61,1.61,0,0,0-1.51-1.39h-8.57a1.51,1.51,0,0,0-1.51,1.39l-9.27,59.24c-.11.69-1.16.69-1.16,0l-6.25-59.24a1.53,1.53,0,0,0-1.51-1.39H272.82a1.39,1.39,0,0,0-1.39,1.74l14.25,88.7a1.63,1.63,0,0,0,1.62,1.27h9.15a1.6,1.6,0,0,0,1.51-1.39l8.46-55.75c.11-.58,1.15-.7,1.27,0l8.69,55.87a1.74,1.74,0,0,0,1.62,1.27h9.27a1.63,1.63,0,0,0,1.62-1.27L343.14,47.7A1.55,1.55,0,0,0,341.64,45.85Z"/>
-                <path class="cls-1" d="M396.18,136.17v-9a1.41,1.41,0,0,0-1.39-1.39H379.5a1.35,1.35,0,0,1-1.51-1.27V47.36a1.43,1.43,0,0,0-1.27-1.51h-9.5a1.43,1.43,0,0,0-1.39,1.51v88.81a1.33,1.33,0,0,0,1.39,1.39h27.57A1.34,1.34,0,0,0,396.18,136.17Z"/>
-                <path class="cls-1" d="M431.45,45.85H402.36A1.44,1.44,0,0,0,401,47.36v88.81a1.34,1.34,0,0,0,1.39,1.39h29.09a1.32,1.32,0,0,0,1.27-1.39v-9a1.39,1.39,0,0,0-1.27-1.39h-16.8a1.35,1.35,0,0,1-1.51-1.27V93a1.36,1.36,0,0,1,1.51-1.28h8.8A1.5,1.5,0,0,0,425,90.38v-9a1.6,1.6,0,0,0-1.51-1.39h-8.8a1.37,1.37,0,0,1-1.51-1.39V59.15a1.46,1.46,0,0,1,1.51-1.5h16.8a1.32,1.32,0,0,0,1.27-1.39v-8.9A1.43,1.43,0,0,0,431.45,45.85Z"/>
-                <path class="cls-1" d="M482.61,135.94,465.7,47.13c-.12-.81-.58-1.28-1.28-1.28h-9.61a1.38,1.38,0,0,0-1.28,1.28l-16.8,88.81a1.41,1.41,0,0,0,1.39,1.62h9a1.37,1.37,0,0,0,1.39-1.16l2.09-16.78a1.34,1.34,0,0,1,1.27-1.16h13.44a1.5,1.5,0,0,1,1.51,1.16l2,16.78a1.37,1.37,0,0,0,1.39,1.16h11.12A1.38,1.38,0,0,0,482.61,135.94ZM463.27,107H454a1.29,1.29,0,0,1-1.28-1.5l5.1-31.89a.76.76,0,0,1,1.51,0l5.21,31.89A1.28,1.28,0,0,1,463.27,107Z"/>
-                <path class="cls-1" d="M517.88,45.85H488.8a1.44,1.44,0,0,0-1.39,1.51v88.81a1.34,1.34,0,0,0,1.39,1.39h9.5a1.31,1.31,0,0,0,1.27-1.39V93a1.36,1.36,0,0,1,1.51-1.28h8.81a1.5,1.5,0,0,0,1.5-1.38v-9a1.6,1.6,0,0,0-1.5-1.39h-8.81a1.37,1.37,0,0,1-1.51-1.39V59.15a1.46,1.46,0,0,1,1.51-1.5h16.8a1.32,1.32,0,0,0,1.28-1.39v-8.9A1.43,1.43,0,0,0,517.88,45.85Z"/>
-                <path class="cls-1" d="M91,39.24A73.6,73.6,0,0,0,79.21,0,73.64,73.64,0,0,0,67.48,39.24,73.63,73.63,0,0,0,79.21,78.47S91,61.39,91,39.24Z"/>
-                <path class="cls-1" d="M67.48,94.57,12,39.09S9.31,65,25.42,81.15C41.08,96.81,67.48,94.57,67.48,94.57Z"/>
-                <path class="cls-1" d="M133,81.15C149.12,65,146.44,39.09,146.44,39.09L91,94.57S117.35,96.81,133,81.15Z"/>
-                <path class="cls-1" d="M129.93,109c-20.47-8.48-44,3.69-44,3.69l72.5,30S151,117.71,129.93,109Z"/>
-                <polygon class="cls-1" points="73.95 94.58 79.21 112.68 84.48 94.58 79.21 84.94 73.95 94.58"/>
-                <polygon class="cls-1" points="73.95 158.5 79.21 168.13 84.48 158.5 79.21 119.15 73.95 158.5"/>
-                <path class="cls-1" d="M28.5,109C7.45,117.71,0,142.71,0,142.71l72.5-30S49,100.51,28.5,109Z"/>
-            </svg>
-
-
-       </div>
-       <div class="mid">
-            <label class="sub_heading">Aim</label>
-            <label class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, voluptate tenetur eveniet eum excepturi deserunt nihil magnam quam voluptatem quas veritatis facere id. Dolore fugiat consequuntur iste, harum quam magnam dolorem recusandae quia temporibus ipsum sapiente, quae vero. Magnam blanditiis reiciendis vel culpa veniam iusto suscipit laudantium nam dolorem soluta.</label>
-
-            <label class="sub_heading">Aim</label>
-            <label class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, voluptate tenetur eveniet eum excepturi deserunt nihil magnam quam voluptatem quas veritatis facere id. Dolore fugiat consequuntur iste, harum quam magnam dolorem recusandae quia temporibus ipsum sapiente, quae vero. Magnam blanditiis reiciendis vel culpa veniam iusto suscipit laudantium nam dolorem soluta.</label>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge"></div>
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 519.16 168.13">
        
-            <label class="sub_heading">Aim</label>
-            <label class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, voluptate tenetur eveniet eum excepturi deserunt nihil magnam quam voluptatem quas veritatis facere id. Dolore fugiat consequuntur iste, harum quam magnam dolorem recusandae quia temporibus ipsum sapiente, quae vero. Magnam blanditiis reiciendis vel culpa veniam iusto suscipit laudantium nam dolorem soluta.</label>
-       
-        </div>
-       <div class="bot">
-            
-            <label class="text">info@greenleaf.green</label>
-       </div>
+        <path class="cls-1" d="M91,39.24A73.6,73.6,0,0,0,79.21,0,73.64,73.64,0,0,0,67.48,39.24,73.63,73.63,0,0,0,79.21,78.47S91,61.39,91,39.24Z"/>
+        <path class="cls-1" d="M67.48,94.57,12,39.09S9.31,65,25.42,81.15C41.08,96.81,67.48,94.57,67.48,94.57Z"/>
+        <path class="cls-1" d="M133,81.15C149.12,65,146.44,39.09,146.44,39.09L91,94.57S117.35,96.81,133,81.15Z"/>
+        <path class="cls-1" d="M129.93,109c-20.47-8.48-44,3.69-44,3.69l72.5,30S151,117.71,129.93,109Z"/>
+        <polygon class="cls-1" points="73.95 94.58 79.21 112.68 84.48 94.58 79.21 84.94 73.95 94.58"/>
+        <polygon class="cls-1" points="73.95 158.5 79.21 168.13 84.48 158.5 79.21 119.15 73.95 158.5"/>
+        <path class="cls-1" d="M28.5,109C7.45,117.71,0,142.71,0,142.71l72.5-30S49,100.51,28.5,109Z"/>
+    </svg>
 
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">Australian grown cannabis</p>
+    
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+   
+  </div>
+</div>
 
-    </body>
+</body>
 </html>
